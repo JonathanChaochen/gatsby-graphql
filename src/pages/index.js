@@ -10,8 +10,8 @@ export default ({ data }) => {
     <Layout>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Panda Eating</title>
-        <meta name="description" content="Panda Eating" />
+        <title>Amazing Panda</title>
+        <meta name="description" content="Panda eating things" />
       </Helmet>
 
       <div>
@@ -41,7 +41,7 @@ export default ({ data }) => {
                 {node.frontmatter.title}{" "}
                 <span
                   css={css`
-                    color: #bbb;
+                    color: #d23669;
                   `}
                 >
                   — {node.frontmatter.date}
